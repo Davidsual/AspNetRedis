@@ -5,6 +5,19 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavideTrotta.AspNet.Redis.Web", "DavideTrotta.AspNet.Redis.Web\DavideTrotta.AspNet.Redis.Web.csproj", "{97D53E09-3AAD-4833-B609-098D215D2DC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisDatabase", "RedisDatabase", "{273711BB-55E1-4C6E-A6A0-0D94407276B9}"
+	ProjectSection(SolutionItems) = preProject
+		Redis_Database\Redis on Windows Release Notes.docx = Redis_Database\Redis on Windows Release Notes.docx
+		Redis_Database\Redis on Windows.docx = Redis_Database\Redis on Windows.docx
+		Redis_Database\redis-benchmark.exe = Redis_Database\redis-benchmark.exe
+		Redis_Database\redis-check-aof.exe = Redis_Database\redis-check-aof.exe
+		Redis_Database\redis-check-dump.exe = Redis_Database\redis-check-dump.exe
+		Redis_Database\redis-cli.exe = Redis_Database\redis-cli.exe
+		Redis_Database\redis-server.exe = Redis_Database\redis-server.exe
+		Redis_Database\redis.windows.conf = Redis_Database\redis.windows.conf
+		Redis_Database\Windows Service Documentation.docx = Redis_Database\Windows Service Documentation.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

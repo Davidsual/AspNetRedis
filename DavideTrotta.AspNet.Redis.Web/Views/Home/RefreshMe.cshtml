@@ -14,6 +14,7 @@
         <b>Value in the session Variable</b>
         <p>@Model.ValueStoredInRedis</p>
     </div>
+    <b>Is Caching in Redis: @TempData["IsCaching"]</b>
     <br />
     <br />
     @Html.ActionLink("Go to result controller and check the timestamp", "Index", "Result")
