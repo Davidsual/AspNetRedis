@@ -43,12 +43,12 @@ I used NUGET RedisSessionProvider provided by microsoft for write session in red
     <b>Controller:</b>
     Session[SessionName] = "My value";
     
-    easy peasy...
+easy peasy...
     
-    <b>Why Redis?</b> 
-    Well in a web farm with a load balancer without stiky session we need to centralize our Session... or eventually Cache...     Redis perform very well in high volume of writing / reading. Redis is a Key/Value based.. and of course it must be           deployed on a third box (better linux).
-    
-    Perfect for session / cache / or state storage....extremely useful for Web.Api
+<b>Why Redis?</b> 
+Well in a web farm with a load balancer without stiky session we need to centralize our Session... or eventually Cache...     Redis perform very well in high volume of writing / reading. Redis is a Key/Value based.. and of course it must be           deployed on a third box (better linux).
+
+Perfect for session / cache / or state storage....extremely useful for Web.Api
     
     
     
