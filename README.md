@@ -10,7 +10,7 @@ I used redis as custom session storage.
 
 I used NUGET RedisSessionProvider provided by microsoft for write session in redis.
 
-  <b>Web.Config:</b>
+<b>Web.Config:</b>
     <sessionState mode="Custom" customProvider="RedisSessionProvider">      
       <providers>
         <add 
@@ -18,7 +18,7 @@ I used NUGET RedisSessionProvider provided by microsoft for write session in red
       </providers>
     </sessionState>
     
-    <b>Global.Asax:</b>
+<b>Global.Asax:</b>
     public class MvcApplication : System.Web.HttpApplication
     {
         private static ConfigurationOptions redisConfigOpts;
@@ -40,12 +40,12 @@ I used NUGET RedisSessionProvider provided by microsoft for write session in red
         }
     }
     
-    <b>Controller:</b>
+<b>Controller:</b>
     Session[SessionName] = "My value";
     
     easy peasy...
     
-    <b>Why Redis?</b> 
+<b>Why Redis?</b> 
     Well in a web farm with a load balancer without stiky session we need to centralize our Session... or eventually Cache...     Redis perform very well in high volume of writing / reading. Redis is a Key/Value based.. and of course it must be           deployed on a third box (better linux).
     
     Perfect for session / cache / or state storage....extremely useful for Web.Api
