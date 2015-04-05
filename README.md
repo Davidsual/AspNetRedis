@@ -1,4 +1,4 @@
-# AspNetRedis
+# Asp.Net 5 MVC + Redis + Custom session provider
 Integration Asp,Net MVC 5 + Redis (DB nosql memory) + custom session provider
 
 
