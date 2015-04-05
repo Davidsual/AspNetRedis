@@ -1,0 +1,21 @@
+﻿@model DavideTrotta.AspNet.Redis.Web.Models.HomeViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>Integration Asp.Net MVC 5 + Redis</h1>
+        <br/>
+        <b>Value in the session Variable</b>
+        <p>@Model.ValueStoredInRedis</p>
+    </div>
+    <br/>
+    <br/>
+    @Html.ActionLink("Redirect to another page...and check if the session in still there with the same TimeStamp", "RefreshMe", "Home")
+</body>
+</html>
